@@ -1,4 +1,4 @@
-.logoposition {
+.logo {
     display: block;
     margin-top: 7%;
     margin-left: auto;
@@ -23,4 +23,11 @@
     align-self: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.regField{
+    /* border: 1px solid #dadce0; */
+    display: block;
+    align-self: center;
+    
 }
