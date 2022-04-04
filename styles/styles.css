@@ -1,6 +1,6 @@
 .logo {
     display: block;
-    margin-top: 7%;
+    margin-top: 7rem;
     margin-left: auto;
     margin-right: auto;
     width: 856px; 
@@ -8,34 +8,23 @@
 }
 
 
-
 #bottomPartButtons{
-    display: flex;
+    display: block;
+    margin-left: 7rem;
+}
+
+.loginbutton{
     justify-content: center;
 }
 
 .button {
-    /* align-self: start; */
+    display: block;
+    justify-content: center;
     background-color: #FFE3E3;
     font-family: roboto,sans-serif;
     font-size: 30;
-    width: 279px;
-    min-width: 194;
-    height: 47px;
+    width: 17rem;
+    min-width: 194px;
+    height: 3rem;
 }
 
-/* #loginbutton{
-    display: inline-block;
-    overflow-x: hidden;
-    
-} */
-/* 
-#registerbutton{
-    
-} */
-
-/* .regField{
-    display: block;
-    align-self: center;
-
-} */
