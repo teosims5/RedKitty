@@ -49,17 +49,17 @@
 }
 
 #email{
-    width: 10rem;
+    width: 20rem;
     justify-content: center;
 }
 
 #password {
-    width: 10rem;
+    width: 20rem;
     justify-content: center;
 }
 
 #display-name {
-    width: 10rem;
+    width: 20rem;
     justify-content: center;
 }
 
@@ -84,6 +84,7 @@ input[type=submit] {
     background-color: #FFE3E3;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 1rem;
 }
 
 /* Style the container */
@@ -114,7 +115,7 @@ input[type=submit] {
     clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */ */
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */ 
 @media screen and (max-width: 600px) {
 .col-25, .col-75, input[type=submit] {
     width: 100%;
