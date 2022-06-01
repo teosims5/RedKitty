@@ -11,7 +11,6 @@
 .bottom-part-buttons{
     display: flex;
     justify-content: center;
-    margin-left: 7rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -24,7 +23,10 @@
 #register-button{
     margin-left: 1rem;
     background-color: #FFE3E3;
+}
 
+#submit-button {
+    background-color: #FFE3E3;
 }
 
 .button {
@@ -53,9 +55,17 @@
     justify-content: center;
 }
 
+#email-label {
+    padding-right: 5rem;
+}
+
 #password {
     width: 20rem;
     justify-content: center;
+}
+
+#password-label {
+    padding-right: 5rem;
 }
 
 #display-name {
@@ -63,10 +73,14 @@
     justify-content: center;
 }
 
+#display-name-label {
+    padding-right: 5rem;
+}
+
 /* Style inputs, select elements and textareas */
 input[type=text], select, textarea{
     width: 100%;
-    padding: 12px;
+    padding: 0.8rem;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
@@ -75,8 +89,9 @@ input[type=text], select, textarea{
 
 /* Style the label to display next to the inputs */
 label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
+    padding: 0.7rem 0.7rem 0.7rem 0;
+    display: flex;
+    justify-content: right;
 }
 
 /* Style the submit button */
@@ -90,22 +105,21 @@ input[type=submit] {
 /* Style the container */
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 20px;
 }
 
-/* Floating column for labels: 25% width */
-.col-25 {
+/* Floating column for labels: 50% width to the left */
+.col-a50 {
     float: left;
-    width: 25%;
-    margin-top: 6px;
+    width: 50%;
+    margin-top: 0.7rem;
 }
 
-/* Floating column for inputs: 75% width */
-.col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
+/* Floating column for inputs: 50% width to the right */
+.col-b50 {
+    float: right;
+    width: 50%;
+    margin-top: 0.7rem;
 }
 
 /* Clear floats after the columns */
@@ -117,8 +131,16 @@ input[type=submit] {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */ 
 @media screen and (max-width: 600px) {
-.col-25, .col-75, input[type=submit] {
+.col-a50, .col-b50, input[type=submit] {
     width: 100%;
     margin-top: 0;
+}
+
+.logo {
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 10%;
 }
 }
