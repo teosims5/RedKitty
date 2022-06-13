@@ -11,7 +11,7 @@
 .bottom-part-buttons{
     display: flex;
     justify-content: center;
-    margin-left: auto;
+    margin-left: auto;  
     margin-right: auto;
 }
 
@@ -122,6 +122,15 @@ input[type=submit] {
     margin-top: 0.7rem;
 }
 
+.middle{
+    width: 100%;
+    margin-top: 0.7rem;
+    position: fixed;
+    left: 50%;
+}
+
+/* a middle column to properly space the submit button
+ */
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -136,6 +145,11 @@ input[type=submit] {
     margin-top: 0;
 }
 
+#password-label, #email-label, #display-name-label {
+    float: left;
+}
+
+
 .logo {
     margin-top: 7rem;
     margin-left: auto;
@@ -143,4 +157,12 @@ input[type=submit] {
     width: 50%;
     height: 10%;
 }
+
+.middle{
+    position: fixed;
+    left: 30%;
+    width: auto;
+}
+
+
 }
